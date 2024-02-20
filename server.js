@@ -1,5 +1,5 @@
-const http = require('http');
 const redis = require('redis');
+const http = require('http');
 
 const client = redis.createClient({
     'host': '127.0.0.1'

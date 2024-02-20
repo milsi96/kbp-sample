@@ -1,0 +1,26 @@
+{
+  "name": "kbp-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brendandburns/kbp-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brendandburns/kbp-sample/issues"
+  },
+  "homepage": "https://github.com/brendandburns/kbp-sample#readme",
+  "dependencies": {
+    "double-ended-queue": "^2.1.0-0",
+    "redis": "^4.6.13",
+    "redis-commands": "^1.4.0",
+    "redis-parser": "^2.6.0"
+  }
+}
